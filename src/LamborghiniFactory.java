@@ -1,5 +1,3 @@
-package DesignPatternProject;
-
 public class LamborghiniFactory implements CarFactory {
     @Override
     public Car createCar() {

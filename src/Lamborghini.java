@@ -1,5 +1,3 @@
-package DesignPatternProject;
-
 public class Lamborghini implements Car {
     @Override
     public void drive() {

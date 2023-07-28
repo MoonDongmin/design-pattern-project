@@ -1,5 +1,3 @@
-package DesignPatternProject;
-
 public class Toyota implements Car {
     @Override
     public void drive() {
