@@ -31,7 +31,7 @@
 4. 각 자동차들은 차동차 인터페이스를 상속해서 구현을 해보자
 5. 프로젝트를 실행한다면 → 각 자동차의 시속 + 추가된 기능들 + 그래서 자동차의 총 가격? 정도...
 
-![img.png](img.png)
+<img width="510" alt="image" src="https://github.com/MoonDongmin/design-pattern-project/assets/109586658/02fc85b1-223c-438d-808e-8c9854f2dcb5">
 다이어그램에서 보시다시피 `CarFactory`와 `Car`를 각각 인터페이스를 설정해서 **데커레이터
 패턴**과 **팩토리 메서드 패턴**을 쓰려고 설정한 것을 볼 수 있음.<br>
 
