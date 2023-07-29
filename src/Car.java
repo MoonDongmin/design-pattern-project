@@ -1,3 +1,7 @@
 public interface Car {
-    void drive();
+    void start();
+
+    void accelerate();
+
+    void stop();
 }
