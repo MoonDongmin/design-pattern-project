@@ -1,3 +1,8 @@
 public interface Driveable {
-    void drive();
+    void start();
+
+    void accelerate();
+
+    void stop();
+
 }
