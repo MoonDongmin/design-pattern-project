@@ -1,4 +1,4 @@
-public class Toyota implements Car {
+public class Toyota implements Driveable {
     @Override
     public void start() {
         System.out.println("Toyota 자동차 시동 ON.");

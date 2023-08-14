@@ -1,4 +1,4 @@
-public class Lamborghini implements Car {
+public class Lamborghini implements Driveable {
     @Override
     public void start(){
         System.out.println("Lamborghini 자동차 시동 ON.");

@@ -1,7 +1,7 @@
-abstract class CarWithOption implements Car {
-    protected Car car;
+abstract class CarWithOption implements Driveable {
+    protected Driveable car;
 
-    public CarWithOption(Car car) {
+    public CarWithOption(Driveable car) {
         this.car = car;
     }
 

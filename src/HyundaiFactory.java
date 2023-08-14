@@ -1,6 +1,6 @@
 public class HyundaiFactory implements CarFactory{
     @Override
-    public Car createCar(){
+    public Driveable createCar(){
         return new Hyundai();
     }
 }

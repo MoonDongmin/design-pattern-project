@@ -12,7 +12,7 @@ public class BikeAdapter implements Driveable {
 
     @Override
     public void accelerate() {
-        bike.running();
+        bike.biking();
     }
 
     @Override

@@ -1,6 +1,6 @@
 public class LamborghiniFactory implements CarFactory {
     @Override
-    public Car createCar() {
+    public Driveable createCar() {
         return new Lamborghini();
     }
 }

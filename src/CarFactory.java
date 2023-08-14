@@ -1,3 +1,3 @@
 public interface CarFactory {
-    Car createCar();
+    Driveable createCar();
 }

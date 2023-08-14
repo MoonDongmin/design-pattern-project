@@ -3,7 +3,7 @@ public class Bike {
         System.out.println("자전거 달릴 준비");
     }
 
-    public void running(){
+    public void biking(){
         System.out.println("자전거가 달리는 중");
     }
 
