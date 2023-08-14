@@ -65,6 +65,7 @@
 그럼 이제 자전거용 어댑터가 필요함. 그래서 `BikeAdapter`라는 클라스를 하나 만들어서 `Driveable` 인터페이스를 원하지만
 자전거는 `start()`, `accelerate()` 메서드가 아닌 `ready()`, `biking()`이라는 메서드가 필요함. 그래서 다음 그림과 같이 어뎁터를 만듬.<br>
 <img width="400" alt="image" src="https://github.com/MoonDongmin/design-pattern-project/assets/109586658/bf5dcd0d-25a0-4b2e-a255-5ed557744310"><br>
+
 ---
 
 ## ✏️ 느낀점
