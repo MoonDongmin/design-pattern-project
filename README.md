@@ -43,4 +43,14 @@
 <img width="604" alt="image" src="https://github.com/MoonDongmin/design-pattern-project/assets/109586658/c89715af-6343-4bb3-bae6-92cf58e28cb0"><br>
 
 <img width="477" alt="image" src="https://github.com/MoonDongmin/design-pattern-project/assets/109586658/d15611e5-8a6b-4ac1-920f-4660e184c9b7"><br>
-코드에서 보시는 것과 같이 각 메소드에서 서로 다른 종류의 자동차를 생성하는 것을 볼 수 있음
+코드에서 보시는 것과 같이 각 메소드에서 서로 다른 종류의 자동차를 생성하는 것을 볼 수 있음.
+
+### 📌 데코레이터 패턴 사용
+이 프로젝트에서는 각 자동차에 블루투스, 온열시트를 옵션으로 추가할 수 있도록 하는 데코레이터 패턴을 사용함.<br>
+<img width="548" alt="image" src="https://github.com/MoonDongmin/design-pattern-project/assets/109586658/2b52c8ed-5b09-4750-be28-cd217f6cc27b"><br>
+`CarWithOption`이라는 추상 클래스를 만들어서 각각의 옵션 클래스들이 상속받을 수 있도록 만들었다.<br>
+
+<img width="490" alt="image" src="https://github.com/MoonDongmin/design-pattern-project/assets/109586658/cc170929-0b36-4244-ac9b-59f27f73dfea"><br>
+메인 코드에서는 `basicCar`이라는 객체를 현대 자동차로 만들어 각각의 옵션을 추가하여 자동차를 주행하는 것을 볼 수 있음.
+
+
