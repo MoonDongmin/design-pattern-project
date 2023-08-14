@@ -39,8 +39,8 @@
 
 ### 📌 팩토리 메서드 패턴 사용
 자동차들을 도맡아 생성하는 자동차 공장 클래스를 만들고,
-이를 상속하는 서브 자동차 공장 클래스의 메서드에서 여러가지 자동차 객체 생성을 책임지도록 만듬.
-<img width="604" alt="image" src="https://github.com/MoonDongmin/design-pattern-project/assets/109586658/c89715af-6343-4bb3-bae6-92cf58e28cb0">
+이를 상속하는 서브 자동차 공장 클래스의 메서드에서 여러가지 자동차 객체 생성을 책임지도록 만듬.<br>
+<img width="604" alt="image" src="https://github.com/MoonDongmin/design-pattern-project/assets/109586658/c89715af-6343-4bb3-bae6-92cf58e28cb0"><br>
 
-<img width="477" alt="image" src="https://github.com/MoonDongmin/design-pattern-project/assets/109586658/d15611e5-8a6b-4ac1-920f-4660e184c9b7">
+<img width="477" alt="image" src="https://github.com/MoonDongmin/design-pattern-project/assets/109586658/d15611e5-8a6b-4ac1-920f-4660e184c9b7"><br>
 코드에서 보시는 것과 같이 각 메소드에서 서로 다른 종류의 자동차를 생성하는 것을 볼 수 있음
