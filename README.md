@@ -37,6 +37,8 @@
 
 그리고 자동차 회사 클래스를 `Car` 인터페이를 상속시키고, 각 자동차 공장 클래스를 `CarFactory` 인터페이스에 상속 시킴.
 
+---
+
 ### 📌 팩토리 메서드 패턴 사용
 자동차들을 도맡아 생성하는 자동차 공장 클래스를 만들고,
 이를 상속하는 서브 자동차 공장 클래스의 메서드에서 여러가지 자동차 객체 생성을 책임지도록 만듬.<br>
@@ -44,6 +46,7 @@
 
 <img width="477" alt="image" src="https://github.com/MoonDongmin/design-pattern-project/assets/109586658/d15611e5-8a6b-4ac1-920f-4660e184c9b7"><br>
 코드에서 보시는 것과 같이 각 메소드에서 서로 다른 종류의 자동차를 생성하는 것을 볼 수 있음.
+---
 
 ### 📌 데코레이터 패턴 사용
 이 프로젝트에서는 각 자동차에 블루투스, 온열시트를 옵션으로 추가할 수 있도록 하는 데코레이터 패턴을 사용함.<br>
@@ -52,5 +55,18 @@
 
 <img width="490" alt="image" src="https://github.com/MoonDongmin/design-pattern-project/assets/109586658/cc170929-0b36-4244-ac9b-59f27f73dfea"><br>
 메인 코드에서는 `basicCar`이라는 객체를 현대 자동차로 만들어 각각의 옵션을 추가하여 자동차를 주행하는 것을 볼 수 있음.
+---
+### 📌 어뎁터 패턴 사용
+자동차 말고 교통수단인 자전거를 사용하려고 합니다. 그래서 `Bike`라는 클래스를 하나 만들었다.<br>
+<img width="525" alt="image" src="https://github.com/MoonDongmin/design-pattern-project/assets/109586658/3abec816-ca89-432d-91de-fa07344adef0"><br>
+
+그럼 이제 자전거용 어댑터가 필요함. 그래서 `BikeAdapter`라는 클라스를 하나 만들어서 `Driveable` 인터페이스를 원하지만
+자전거는 `start()`, `accelerate()` 메서드가 아닌 `ready()`, `biking()`이라는 메서드가 필요함. 그래서 다음 그림과 같이 어뎁터를 만듬.<br>
+<img width="400" alt="image" src="https://github.com/MoonDongmin/design-pattern-project/assets/109586658/bf5dcd0d-25a0-4b2e-a255-5ed557744310"><br>
+
+
+
+
+
 
 
