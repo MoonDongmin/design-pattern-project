@@ -1,4 +1,9 @@
+package Decorate;
+
+import Factory.Driveable;
+
 public class CarWithBluetooth extends CarWithOption{
+    static int price;
     public CarWithBluetooth(Driveable car){
         super(car);
     }

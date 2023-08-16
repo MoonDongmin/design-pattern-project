@@ -1,3 +1,7 @@
+package Decorate;
+
+import Factory.Driveable;
+
 public class CarWithHeatedSeat extends CarWithOption{
     public CarWithHeatedSeat(Driveable car){
         super(car);

@@ -1,3 +1,7 @@
+package Adapter;
+
+import Factory.Driveable;
+
 public class BikeAdapter implements Driveable {
     Bike bike;
 

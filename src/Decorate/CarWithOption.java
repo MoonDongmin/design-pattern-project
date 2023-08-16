@@ -1,3 +1,7 @@
+package Decorate;
+
+import Factory.Driveable;
+
 abstract class CarWithOption implements Driveable {
     protected Driveable car;
 

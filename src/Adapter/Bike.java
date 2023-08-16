@@ -1,3 +1,5 @@
+package Adapter;
+
 public class Bike {
     public void ready(){
         System.out.println("자전거 달릴 준비");

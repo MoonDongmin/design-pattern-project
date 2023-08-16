@@ -1,3 +1,8 @@
+import Adapter.Bike;
+import Adapter.BikeAdapter;
+import Decorate.CarWithBluetooth;
+import Decorate.CarWithHeatedSeat;
+import Factory.*;
 
 public class CarMain {
     public static void main(String[] args) {
@@ -27,14 +32,15 @@ public class CarMain {
 
 
         // 데코레이터 패턴 사용
-        Driveable basicCar = new Hyundai();
-        Driveable withBluetooth = new CarWithBluetooth(basicCar);
+        Driveable hyundai = new Hyundai();
+        Driveable withBluetooth = new CarWithBluetooth(hyundai);
         Driveable withHeatedSeat = new CarWithHeatedSeat(withBluetooth);
 
-        System.out.println("데코레이터 패턴 사용: 블루투스 + 온열시트");
+        System.out.println("데코레이터 패턴 사용: 블루투스 + 열선시트");
         withHeatedSeat.start();
         withHeatedSeat.accelerate();
         withHeatedSeat.stop();
+        System.out.println("이 자동차의 가격: ~");
 
 
     }
