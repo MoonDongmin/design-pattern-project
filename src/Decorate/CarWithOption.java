@@ -4,7 +4,6 @@ import Factory.Driveable;
 
 abstract class CarWithOption implements Driveable {
     protected Driveable car;
-
     public CarWithOption(Driveable car) {
         this.car = car;
     }

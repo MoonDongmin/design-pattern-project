@@ -40,8 +40,6 @@ public class CarMain {
         withHeatedSeat.start();
         withHeatedSeat.accelerate();
         withHeatedSeat.stop();
-        System.out.println("이 자동차의 가격: ~");
-
-
+        System.out.println("추가한 옵션들의 총합: " + (CarWithHeatedSeat.getPrice() + CarWithBluetooth.getPrice())+"원");
     }
 }
