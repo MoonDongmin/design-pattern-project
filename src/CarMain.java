@@ -9,6 +9,7 @@ import java.util.Scanner;
 public class CarMain {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
         // 팩토리 메서드 패턴 사용
         CarFactory hyundaiFactory = new HyundaiFactory();
         CarFactory toyotaFactory = new ToyotaFactory();
@@ -21,6 +22,7 @@ public class CarMain {
         // 어뎁터 패턴 사용
         Driveable bike = new BikeAdapter(new Bike());
 
+        // while문 true를 값 받아와 고치기, 인터페이스 값으로 설정..., 옵션을 로직으로, 스트링, 스캐너 / 버퍼리더 싱글턴으로
         while (true) {
             System.out.println("\n자동차를 고르시오.");
             System.out.println("1.현대 2.토요타 3.람보르기니 4.자전거 5.종료");
